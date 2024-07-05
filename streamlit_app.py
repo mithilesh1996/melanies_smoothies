@@ -44,7 +44,7 @@ if ingredients_list:
 
         st.subheader(fruit_chosen+'  Nutrition Information')
         #st.write(fruit_chosen + 'Is my FRUIT')
-        fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+search_on)
+        fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+fruit_chosen)
         #st.write(fruityvice_response + 'Mithilesh')
         #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
         #st.text(fruityvice_response.json())
